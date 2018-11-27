@@ -28,6 +28,9 @@
 		EAC6DAB621AB8810002166F9 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6DAB521AB8810002166F9 /* MovieListController.swift */; };
 		EAFF91B921AB9AC4009FDCF5 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91B821AB9AC4009FDCF5 /* MovieVO.swift */; };
 		EAFF91BB21ABA685009FDCF5 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91BA21ABA685009FDCF5 /* MovieCell.swift */; };
+		EAFF91BD21ACDCC4009FDCF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91BC21ACDCC4009FDCF5 /* DetailViewController.swift */; };
+		EAFF91BF21ACF9C9009FDCF5 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91BE21ACF9C9009FDCF5 /* TheaterListController.swift */; };
+		EAFF91C321AD1295009FDCF5 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91C221AD1295009FDCF5 /* TheaterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +64,9 @@
 		EAC6DAB521AB8810002166F9 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
 		EAFF91B821AB9AC4009FDCF5 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 		EAFF91BA21ABA685009FDCF5 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		EAFF91BC21ACDCC4009FDCF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EAFF91BE21ACF9C9009FDCF5 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
+		EAFF91C221AD1295009FDCF5 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
 		F7819F09870C23F8E6B2320F /* Pods_SampleiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -172,6 +178,9 @@
 				EAC6DAB521AB8810002166F9 /* MovieListController.swift */,
 				EAFF91B821AB9AC4009FDCF5 /* MovieVO.swift */,
 				EAFF91BA21ABA685009FDCF5 /* MovieCell.swift */,
+				EAFF91BC21ACDCC4009FDCF5 /* DetailViewController.swift */,
+				EAFF91BE21ACF9C9009FDCF5 /* TheaterListController.swift */,
+				EAFF91C221AD1295009FDCF5 /* TheaterCell.swift */,
 			);
 			path = OpenApiprec;
 			sourceTree = "<group>";
@@ -402,9 +411,12 @@
 				EAC6DAB621AB8810002166F9 /* MovieListController.swift in Sources */,
 				EAC6DAA521AB8636002166F9 /* ViewController.swift in Sources */,
 				EAFF91BB21ABA685009FDCF5 /* MovieCell.swift in Sources */,
+				EAFF91BF21ACF9C9009FDCF5 /* TheaterListController.swift in Sources */,
+				EAFF91C321AD1295009FDCF5 /* TheaterCell.swift in Sources */,
 				EAC6DAA321AB8636002166F9 /* AppDelegate.swift in Sources */,
 				EAC6DAAB21AB8637002166F9 /* OpenApiprec.xcdatamodeld in Sources */,
 				EAFF91B921AB9AC4009FDCF5 /* MovieVO.swift in Sources */,
+				EAFF91BD21ACDCC4009FDCF5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
