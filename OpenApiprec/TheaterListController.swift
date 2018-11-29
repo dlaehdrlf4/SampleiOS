@@ -26,6 +26,7 @@ class TheaterListController: UITableViewController {
         //배열의 데이터를 순회하면서 데이터를 self.data에 추가
         for imsi in result!{
             self.data.append(imsi as! NSDictionary)
+            print(imsi)
         }
     
         
@@ -93,6 +94,21 @@ class TheaterListController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
+    
+    //셀을 선택햇을 때 호출되는 메소드
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //데이터 찾아오기
+        let theater = self.data[indexPath.row]
+        //하위 뷰 컨트롤러 객체 생성
+        let displayMapViewController = self.storyboard?.instantiateViewController(withIdentifier: "DisplayMapViewController") as! DisplayMapViewController
+        //데이터 넘겨주기
+        displayMapViewController.theater = theater
+        //비동기적으로 푸시
+        DispatchQueue.main.async {
+            self.navigationController?.pushViewController(displayMapViewController, animated: true)
+        }
+    }
+    
     
 
     /*

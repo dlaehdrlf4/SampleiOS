@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43DF352160877F1A100DC709 /* Pods_MemberManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AC6E15AD039DF587491360 /* Pods_MemberManagement.framework */; };
 		927DABDA374909EF16FA4C76 /* Pods_SampleiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7819F09870C23F8E6B2320F /* Pods_SampleiOS.framework */; };
+		EAABCFC921AF98A0006DB6B7 /* 지민데스4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAABCFC821AF98A0006DB6B7 /* 지민데스4.jpg */; };
 		EAC6D9D121A4E819002166F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6D9D021A4E819002166F9 /* AppDelegate.swift */; };
 		EAC6D9D321A4E819002166F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6D9D221A4E819002166F9 /* ViewController.swift */; };
 		EAC6D9D621A4E819002166F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC6D9D421A4E819002166F9 /* Main.storyboard */; };
@@ -31,6 +32,12 @@
 		EAFF91BD21ACDCC4009FDCF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91BC21ACDCC4009FDCF5 /* DetailViewController.swift */; };
 		EAFF91BF21ACF9C9009FDCF5 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91BE21ACF9C9009FDCF5 /* TheaterListController.swift */; };
 		EAFF91C321AD1295009FDCF5 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91C221AD1295009FDCF5 /* TheaterCell.swift */; };
+		EAFF91C621AE1E4D009FDCF5 /* DisplayMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91C521AE1E4D009FDCF5 /* DisplayMapViewController.swift */; };
+		EAFF91C921AE3098009FDCF5 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91C821AE3098009FDCF5 /* MemoListVC.swift */; };
+		EAFF91CB21AE40DF009FDCF5 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91CA21AE40DF009FDCF5 /* MemoFormVC.swift */; };
+		EAFF91CD21AE60EE009FDCF5 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91CC21AE60EE009FDCF5 /* MemoReadVC.swift */; };
+		EAFF91CF21AE6995009FDCF5 /* MemoVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91CE21AE6995009FDCF5 /* MemoVO.swift */; };
+		EAFF91D121AF7422009FDCF5 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF91D021AF7422009FDCF5 /* MemoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +46,7 @@
 		40AAD3821D60BD30D50F8CAE /* Pods-MemberManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemberManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemberManagement/Pods-MemberManagement.release.xcconfig"; sourceTree = "<group>"; };
 		674029B29B49CC93537510C9 /* Pods-SampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleiOS/Pods-SampleiOS.release.xcconfig"; sourceTree = "<group>"; };
 		C7528948CF8916C96CF1C64B /* Pods-MemberManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemberManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemberManagement/Pods-MemberManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		EAABCFC821AF98A0006DB6B7 /* 지민데스4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "지민데스4.jpg"; sourceTree = "<group>"; };
 		EAC6D9CD21A4E819002166F9 /* SampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6D9D021A4E819002166F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC6D9D221A4E819002166F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +75,12 @@
 		EAFF91BC21ACDCC4009FDCF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EAFF91BE21ACF9C9009FDCF5 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
 		EAFF91C221AD1295009FDCF5 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
+		EAFF91C521AE1E4D009FDCF5 /* DisplayMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMapViewController.swift; sourceTree = "<group>"; };
+		EAFF91C821AE3098009FDCF5 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		EAFF91CA21AE40DF009FDCF5 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		EAFF91CC21AE60EE009FDCF5 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		EAFF91CE21AE6995009FDCF5 /* MemoVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoVO.swift; sourceTree = "<group>"; };
+		EAFF91D021AF7422009FDCF5 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		F7819F09870C23F8E6B2320F /* Pods_SampleiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +129,14 @@
 				674029B29B49CC93537510C9 /* Pods-SampleiOS.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAABCFC721AF9830006DB6B7 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EAABCFC821AF98A0006DB6B7 /* 지민데스4.jpg */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 		EAC6D9C421A4E819002166F9 = {
@@ -168,6 +190,8 @@
 		EAC6DAA121AB8636002166F9 /* OpenApiprec */ = {
 			isa = PBXGroup;
 			children = (
+				EAABCFC721AF9830006DB6B7 /* resource */,
+				EAFF91C721AE3068009FDCF5 /* Memo */,
 				EAC6DAA221AB8636002166F9 /* AppDelegate.swift */,
 				EAC6DAA421AB8636002166F9 /* ViewController.swift */,
 				EAC6DAA621AB8636002166F9 /* Main.storyboard */,
@@ -181,8 +205,21 @@
 				EAFF91BC21ACDCC4009FDCF5 /* DetailViewController.swift */,
 				EAFF91BE21ACF9C9009FDCF5 /* TheaterListController.swift */,
 				EAFF91C221AD1295009FDCF5 /* TheaterCell.swift */,
+				EAFF91C521AE1E4D009FDCF5 /* DisplayMapViewController.swift */,
 			);
 			path = OpenApiprec;
+			sourceTree = "<group>";
+		};
+		EAFF91C721AE3068009FDCF5 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF91C821AE3098009FDCF5 /* MemoListVC.swift */,
+				EAFF91CA21AE40DF009FDCF5 /* MemoFormVC.swift */,
+				EAFF91CC21AE60EE009FDCF5 /* MemoReadVC.swift */,
+				EAFF91CE21AE6995009FDCF5 /* MemoVO.swift */,
+				EAFF91D021AF7422009FDCF5 /* MemoCell.swift */,
+			);
+			path = Memo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC6DAB021AB864B002166F9 /* LaunchScreen.storyboard in Resources */,
+				EAABCFC921AF98A0006DB6B7 /* 지민데스4.jpg in Resources */,
 				EAC6DAAD21AB864B002166F9 /* Assets.xcassets in Resources */,
 				EAC6DAA821AB8636002166F9 /* Main.storyboard in Resources */,
 			);
@@ -410,13 +448,19 @@
 			files = (
 				EAC6DAB621AB8810002166F9 /* MovieListController.swift in Sources */,
 				EAC6DAA521AB8636002166F9 /* ViewController.swift in Sources */,
+				EAFF91CB21AE40DF009FDCF5 /* MemoFormVC.swift in Sources */,
 				EAFF91BB21ABA685009FDCF5 /* MovieCell.swift in Sources */,
 				EAFF91BF21ACF9C9009FDCF5 /* TheaterListController.swift in Sources */,
 				EAFF91C321AD1295009FDCF5 /* TheaterCell.swift in Sources */,
 				EAC6DAA321AB8636002166F9 /* AppDelegate.swift in Sources */,
+				EAFF91C621AE1E4D009FDCF5 /* DisplayMapViewController.swift in Sources */,
 				EAC6DAAB21AB8637002166F9 /* OpenApiprec.xcdatamodeld in Sources */,
 				EAFF91B921AB9AC4009FDCF5 /* MovieVO.swift in Sources */,
+				EAFF91CF21AE6995009FDCF5 /* MemoVO.swift in Sources */,
+				EAFF91D121AF7422009FDCF5 /* MemoCell.swift in Sources */,
+				EAFF91CD21AE60EE009FDCF5 /* MemoReadVC.swift in Sources */,
 				EAFF91BD21ACDCC4009FDCF5 /* DetailViewController.swift in Sources */,
+				EAFF91C921AE3098009FDCF5 /* MemoListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
